@@ -561,4 +561,17 @@ in {
     BL31 = "${armTrustedFirmwareRK3399}/bl31.elf";
     filesToInstall = [ "u-boot.itb" "idbloader.img"];
   };
+
+  ubootClockworkPiDevTermA06 = buildUBoot {
+    extraPatches = [
+      (fetchpatch {
+        url = "https://github.com/clockworkpi/DevTerm/blob/edefff6a23e1a1bee154cd91ce04f91f99e83c31/Code/patch/armbian_build_a06/patch/uboot-clockworkpi-a06.patch";
+        sha256 = "05ylcp43wygr8bwn0cs561lc7nmaa3lm5118v5q8iakggnyqj9lw";
+      })
+    ];
+    defconfig = "clockworkpi-a06-rk3399_defconfig";
+    extraMeta.platforms = ["aarch64-linux"];
+    BL31="${armTrustedFirmwareRK3399}/bl31.elf";
+    filesToInstall = [ "u-boot.itb" "idbloader.img"];
+  };
 }
