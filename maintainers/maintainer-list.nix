@@ -9169,12 +9169,6 @@
     githubId = 2037002;
     name = "Konstantinos";
   };
-  kototama = {
-    email = "kototama@posteo.jp";
-    github = "kototama";
-    githubId = 128620;
-    name = "Kototama";
-  };
   kouyk = {
     email = "skykinetic@stevenkou.xyz";
     github = "kouyk";
@@ -14662,7 +14656,7 @@
     name = "Rahul Butani";
   };
   rs0vere = {
-    email = "rs0vere@outlook.com";
+    email = "rs0vere@proton.me";
     github = "rs0vere";
     githubId = 140035635;
     keys = [{
@@ -16335,6 +16329,12 @@
     email = "contact@sweenu.xyz";
     github = "sweenu";
     githubId = 7051978;
+  };
+  swesterfeld = {
+    email = "stefan@space.twc.de";
+    github = "swesterfeld";
+    githubId = 14840066;
+    name = "Stefan Westerfeld";
   };
   swflint = {
     email = "swflint@flintfam.org";
