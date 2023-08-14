@@ -565,8 +565,8 @@ in {
   ubootClockworkPiDevTermA06 = buildUBoot {
     extraPatches = [
       (fetchpatch {
-        url = "https://github.com/clockworkpi/DevTerm/blob/edefff6a23e1a1bee154cd91ce04f91f99e83c31/Code/patch/armbian_build_a06/patch/uboot-clockworkpi-a06.patch";
-        sha256 = "05ylcp43wygr8bwn0cs561lc7nmaa3lm5118v5q8iakggnyqj9lw";
+        url = "https://raw.githubusercontent.com/clockworkpi/DevTerm/edefff6a23e1a1bee154cd91ce04f91f99e83c31/Code/patch/armbian_build_a06/patch/uboot-clockworkpi-a06.patch";
+        sha256 = "0b99ppk7b56hswm7mzld968jqy3kn24mmlv41yxbhw3mf6vv0rcd";
       })
     ];
     defconfig = "clockworkpi-a06-rk3399_defconfig";

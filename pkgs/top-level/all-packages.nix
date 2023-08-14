@@ -28686,6 +28686,7 @@ with pkgs;
     ubootBananaPim3
     ubootBananaPim64
     ubootAmx335xEVM
+    ubootClockworkPiDevTermA06
     ubootClearfog
     ubootCubieboard2
     ubootGuruplug
